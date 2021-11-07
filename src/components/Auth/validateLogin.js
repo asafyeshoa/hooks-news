@@ -1,4 +1,4 @@
-export default function validateCreateLink(values) {
+export default function validateLogin(values) {
     let errors = {}
     if(!values.email){
         errors.email = 'Email required'
